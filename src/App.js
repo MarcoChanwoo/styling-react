@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
 import SassComponent from './SassComponent';
+import CSSModule from './CSSModule';
+import StyledComponent from './StyledComponent';
 
 class App extends Component {
    render() {
@@ -20,7 +22,9 @@ class App extends Component {
                   Learn React
                </a>
             </header> */}
-            <SassComponent />
+            {/* <SassComponent /> */}
+            {/* <CSSModule /> */}
+            <StyledComponent />
          </div>
       );
    }

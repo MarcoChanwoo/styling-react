@@ -1,6 +1,10 @@
-@import './styles/utils';
+// @import 'utils.scss';
 .SassComponent{
    display: flex;
+   background: $oc-gray-2;
+   @include media('<768px'){ // 768px 이하에서 배경 검정으로 설정
+      background: $oc-gray-9;
+   }
    .box{ // 일반 CSS에서는 .SassComponent .box와 마찬가지
       background: red;
       cursor: pointer;
